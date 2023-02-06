@@ -7,3 +7,10 @@ vscode:
 
 tasks:
   - init: npm install && npm run build
+
+ports:
+  - name: simple-server
+    description: Simple 200 Response
+    port: 8080
+    onOpen: open-browser
+    visibility: public
