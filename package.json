@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "build": "echo \"Skipping: No build",
+    "build": "echo 'Skipping build script'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Maximilian Eise",
